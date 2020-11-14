@@ -28,18 +28,16 @@ h1{
 		flex-direction: column;
 	}
 	display: flex;
-	max-width: 1200px;
+	max-width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
 	clear: both; }
-article {
-	flex: 1 100px;
-	text-align: center;
-	//background-color: white;
-	padding: 10px;
-	margin: 10px;
-	//opacity: .6;
+
+
+.divArticle {
+margin-left: auto
 }
+
 
 
 
@@ -84,7 +82,9 @@ article {
 .paragraphtext {
 	font-size: 2rem;
 }
-
+.imageHidden {
+	visibility: hidden;
+}
 .imageinitial {
 	display: none;
 }

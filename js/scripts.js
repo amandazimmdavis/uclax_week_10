@@ -3,9 +3,9 @@ jQuery(function() {
 	//let dog_out = true;
 
 	$('#catbutton').click(function() {
-		$('#catdog').addClass('imageinitial');
+		$('#catdog').addClass('imageHidden');
 		$('#catdog').addClass("catimage").attr('src', 'images/nigeluse.png');
-		$('#catdog').removeClass('imageinitial');
+		$('#catdog').removeClass('imageHidden');
 		$('#fuzzyfriend').removeClass('imageinitial');
 		$('#yesno').removeClass('imageinitial');
 		$('#youTubeGift').attr('src','https://www.youtube.com/embed/xbs7FT7dXYc');
@@ -13,9 +13,9 @@ jQuery(function() {
 
 	});
 	$('#dogbutton').click(function() {
-		$('#catdog').addClass('imageinitial');
+		$('#catdog').addClass('imageHidden');
 		$('#catdog').removeClass("catimage").attr('src', 'images/huskyuse2.png');
-		$('#catdog').removeClass('imageinitial');
+		$('#catdog').removeClass('imageHidden');
 		$('#fuzzyfriend').removeClass('imageinitial');
 		$('#yesno').removeClass('imageinitial');
 		$('#youTubeGift').attr('src','https://www.youtube.com/embed/TVPAUzoYmyU');

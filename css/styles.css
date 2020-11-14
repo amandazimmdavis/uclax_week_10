@@ -18,18 +18,15 @@ body {
       clear: right; } }
   body .myflex {
     display: flex;
-    max-width: 1200px;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
     clear: both; }
     @media screen and (max-width: 750px) {
       body .myflex {
         flex-direction: column; } }
-  body article {
-    flex: 1 100px;
-    text-align: center;
-    padding: 10px;
-    margin: 10px; }
+  body .divArticle {
+    margin-left: auto; }
   body .heading {
     text-align: center;
     background-color: white;
@@ -56,5 +53,7 @@ body {
     margin-right: 10px; }
   body .paragraphtext {
     font-size: 2rem; }
+  body .imageHidden {
+    visibility: hidden; }
   body .imageinitial {
     display: none; }
