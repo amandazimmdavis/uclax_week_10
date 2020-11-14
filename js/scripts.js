@@ -31,7 +31,8 @@ jQuery(function() {
 			$('#giveimage').attr('src','images/giftopen.png');
 		});
 		$('#giveimage').fadeIn('slow');
-		$('#getGift').removeClass('imageinitial');
+		//$('#getGift').removeClass('imageinitial');
+		$('#getGift').slideDown(1000);
 	});
 
 	$('#nodog').click(function() {
