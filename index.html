@@ -4,10 +4,14 @@
   <head>
     <meta charset="utf-8">
 
-    <title>Week 7, Part 1</title>
+    <title>Happy Birthday!!</title>
 
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
@@ -15,13 +19,21 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
+
+
   </head>
 
   <body>
 
-    <h1>Week 7, Part 1</h1>
+      <h1 class="heading">Who is celebrating a birthday?</h1>
 
-    <div class="board">
+    <div class="buttonalign">
+      <button class="buttonmargin" id="catbutton">A Cat</button>
+      <button class="buttonmargin" id="dogbutton">A Dog</button>
+    </div>
+
+
+    <!--<div class="board">
 			<div class="square alt"></div>
 			<div class="square"></div>
 			<div class="square alt"></div>
@@ -35,9 +47,96 @@
 
 		<p>
       <img src="images/kitten.png" id="my_image" class="animal">
+    </p> -->
+
+
+    <!--<div class="dogimageDiv">
+      <img class="imageinitial" src="images/huskyuse2.png" id="catdog">
+    </div>-->
+
+
+    <div class="myflex">
+    <article>
+      <div class="dogimageDiv">
+        <img class="imageinitial" src="images/huskyuse2.png" id="catdog">
+      </div>
+    </article>
+
+      <article>
+        <div>
+         <!--<img class="imageinitial" src="images/giftclose.png" id="giveimage">-->
+        <img src="images/giftclose.png" id="giveimage">
+        </div>
+      </article>
+<!--
+      <article>
+        <div>
+          <img class="imageinitial" src="images/giftopen.png" id="takeimage">
+        </div>
+      </article>
+-->
+</div>
+
+
+
+    <div class="paragraphalign imageinitial" id="fuzzyfriend">
+      <p class="paragraphtext">
+      Happy Birthday Fuzzy Friend! Would you like a present?
+      </p>
+    </div>
+
+    <div class="paragraphalign imageinitial" id="yesno">
+      <button class="buttonmargin" id="yesdog">Yes!</button>
+      <button class="buttonmargin" id="nodog">No</button>
+    </div>
+
+    <p class="paragraphalign"><a class="btn btn-danger btn-lg imageinitial" id="getGift" href="#" role="button" data-toggle="modal" data-target="#exampleModal">Receive Gift &raquo;</a></p>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+
+            <div class="container2">
+              <iframe width="560" height="315" id="youTubeGift" src="https://www.youtube.com/embed/TVPAUzoYmyU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--modal end-->
+
+
+
+
+<!--
+    <div>
+      <img class="imageinitial" src="images/giftclose.png" id="giveimage">
+    </div>
+-->
+    <!--<p>
+      Happy Birthday Fuzzy Friend! Would you like a present?
+
+      <button id="yescat">Yes!</button>
+      <button id="nocat">No</button>
     </p>
 
-		<button id="my_button" class="btn btn-primary">Button</button>
+      <img class="catimage" src="images/nigeluse.png" id="nigel"> -->
+
+
+		<!--<button id="my_button" class="btn btn-primary">Button</button>-->
 
 	</body>
 

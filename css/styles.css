@@ -1,0 +1,60 @@
+body {
+  font-family: 'Berkshire Swash', cursive;
+  background-image: url("../images/gifts.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 20px; }
+  body h1 {
+    margin-left: auto;
+    margin-right: auto; }
+  @media screen and (min-width: 810px) {
+    body .float {
+      float: left;
+      margin: 15px;
+      width: 50%; }
+    body .wrapper {
+      padding: 10px; }
+    body .cleared {
+      clear: right; } }
+  body .myflex {
+    display: flex;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both; }
+    @media screen and (max-width: 750px) {
+      body .myflex {
+        flex-direction: column; } }
+  body article {
+    flex: 1 100px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px; }
+  body .heading {
+    text-align: center;
+    background-color: white;
+    width: 550px;
+    border: solid;
+    border-color: black;
+    border-width: medium; }
+  body .buttonalign {
+    text-align: center;
+    display: flex;
+    justify-content: center; }
+  body .catimage {
+    height: 500px; }
+  body .dogimageDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px; }
+  body .paragraphalign {
+    text-align: center;
+    display: flex;
+    justify-content: center; }
+  body .buttonmargin {
+    margin-left: 10px;
+    margin-right: 10px; }
+  body .paragraphtext {
+    font-size: 2rem; }
+  body .imageinitial {
+    display: none; }

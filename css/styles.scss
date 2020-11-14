@@ -1,30 +1,91 @@
 body {
-	font-family: sans-serif;
+
+	font-family: 'Berkshire Swash', cursive;
+
+	background-image: url('../images/gifts.jpg'); background-size: cover; background-attachment: fixed;
 	margin: 20px;
 
-  .board {
-  	background: yellow;
-  	width: 300px;
-  	height: 300px;
-    margin-bottom: 20px;
-  }
 
-  .square {
-  	width: 100px;
-  	height: 100px;
-  	float: left;
+h1{
+	//display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
 
-    &.red {
-    	background: red;
-    }
 
-    &.green {
-    	background: green;
-    }
-  }
+@media screen and (min-width: 810px) {
+	.float {
+		float: left;
+		margin: 15px;
+		width: 50%; }
+	.wrapper {
+		padding: 10px; }
+	.cleared {
+		clear: right; } }
 
-  .animal {
-    width: 100px;
-    height: auto;
-  }
+.myflex {
+	@media screen and (max-width: 750px) {
+		flex-direction: column;
+	}
+	display: flex;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both; }
+article {
+	flex: 1 100px;
+	text-align: center;
+	//background-color: white;
+	padding: 10px;
+	margin: 10px;
+	//opacity: .6;
+}
+
+
+
+.heading {
+	text-align: center;
+	background-color: white;
+	width: 550px;
+	border: solid;
+	border-color: black;
+	border-width: medium;
+
+}
+
+.buttonalign {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+.catimage {
+	height: 500px;
+}
+
+.dogimageDiv{
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+}
+
+
+.paragraphalign {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+.buttonmargin {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.paragraphtext {
+	font-size: 2rem;
+}
+
+.imageinitial {
+	display: none;
+}
 }
