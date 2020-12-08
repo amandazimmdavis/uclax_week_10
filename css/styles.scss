@@ -1,91 +1,441 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
 body {
+	////////////////////////////////////////////////////////////
+	////////////////////////////////////////////////////////////
+	////Index.html////
+	////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////
 
-	font-family: 'Berkshire Swash', cursive;
+	font-family: 'Raleway', sans-serif;
+	background-color: rgb(163,188,182);
 
-	background-image: url('../images/gifts.jpg'); background-size: cover; background-attachment: fixed;
-	margin: 20px;
+	////////////////////////////////////////////////////////////
+	////Index.html --- START --- top logo, navbar --- START////
+	////////////////////////////////////////////////////////////
 
-
-h1{
-	//display: inline-block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-
-@media screen and (min-width: 810px) {
-	.float {
-		float: left;
-		margin: 15px;
-		width: 50%; }
-	.wrapper {
-		padding: 10px; }
-	.cleared {
-		clear: right; } }
-
-.myflex {
-	@media screen and (max-width: 750px) {
-		flex-direction: column;
+	.logo {
+		width: 184px;
+		height: 64px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
 	}
+
+.topbackground {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background-color: rgb(163,188,182);
+}
+
+.navbarListLeft {
+padding-left: 40px;
+}
+
+.navbarListRight {
+padding-right: 40px;
+}
+li.contactLI:hover {
+	text-decoration: underline !important;
+}
+
+
+////////////////////////////////////////////////////////////
+////Index.html --- END --- top logo, navbar ---   END////
+////////////////////////////////////////////////////////////
+
+
+////////////////////////////////////////////////////////////
+////Index.html --- START --- First Image --- START ////
+////////////////////////////////////////////////////////////
+
+.waterFallBackground {
+	background-color: rgb(163,188,182);
+}
+
+
+.WaterFallImage {
+		width: 100%;
+		padding: 0px 75px 0px 75px;
+		margin-bottom: 40px;
+
+	}
+
+	////////////////////////////////////////////////////////////
+	////Index.html --- END --- First Image --- END ////
+	////////////////////////////////////////////////////////////
+
+
+	////////////////////////////////////////////////////////////
+	////Index.html --- START --- Bio Section --- START ////
+	////////////////////////////////////////////////////////////
+
+	.middlebackground {
+	 padding-right: 100px;
+    padding-left: 100px;
+		background-color: rgb(60,64,61);
+		color: white;
+	}
+
+	.bioRowPadding {
+		padding-top: 25px;
+		padding-bottom: 25px;
+		align-items: center;
+	}
+
+	.bioText {
+		font-size: 16pt;
+		padding-left: 25px;
+	}
+
+	.middleimage {
+		//width: 348px;
+		//height: 527px;
+		width: 100%;
+	}
+
+
+.footerindex {
+	background-color: rgb(218,222,212);
+}
+	////////////////////////////////////////////////////////////
+	////Index.html --- END --- Bio Section --- END ////
+	////////////////////////////////////////////////////////////
+
+
+
+	////////////////////////////////////////////////////////////
+	////Index.html --- START --- Bottom Links --- START ////
+	////////////////////////////////////////////////////////////
+
+
+	.mtnContainer {
+		//padding-top: 25px;
+		//padding-bottom: 25px;
+		//padding-left: 50px;
+		//padding-right:	50px;
+		//align-items: center;
+		//display: flex;
+		//margin-left: auto;
+		//margin-right: auto;
+		//display: block;
+		padding-left: 50px;
+		padding-right: 50px;
+		background-color: rgb(218,222,212);
+		color: white;
+		padding-top: 50px;
+		padding-bottom: 50px;
+
+	}
+
+
+	.mtncontainerchild {
+		display: flex;
+		justify-content: space-around;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.mountainimage {
+		height: 207px;
+		width: 270px;
+	}
+
+.mountainlink {
+		display: inline;
+		font-size: 25pt;
+		font-weight: bold;
+		color: white;
+}
+p.mountainlink:hover {
+	text-decoration: underline !important;
+}
+
+
+
+
+	////////////////////////////////////////////////////////////
+	////Index.html --- END --- Bottom Links--- END ////
+	////////////////////////////////////////////////////////////
+
+	////////////////////////////////////////////////////////////
+	////Index.html --- START --- Home footer --- START ////
+	////////////////////////////////////////////////////////////
+
+.HomePad {
+	padding-left: 30px;
+}
+
+	////////////////////////////////////////////////////////////
+	////Index.html --- END --- Home footer--- END ////
+	////////////////////////////////////////////////////////////
+
+
+
+	////////////////////////////////////////////////////////////
+	////////////////////////////////////////////////////////////
+	//// END --- Index.html --- END ////
+	////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////
+
+	////////////////////////////////////////////////////////////
+	////////////////////////////////////////////////////////////
+	////Portfolio////
+	////////////////////////////////////////////////////////////
+	////////////////////////////////////////////////////////////
+
+	.portfolioheader {
+		color: white;
+		font-size: 55pt;
+	}
+
+.portfolioBody {
+background-color: rgb(163,188,182);
+
+}
+
+.portfoliotext {
+	font-size: 60px;
+	margin: auto;
+}
+
+//////////header links/////////
+//////////////////////////////
+
+a.one:link {
+	color: black;
+
+}
+
+a.one:visited {
+	color: black;
+
+}
+
+a.one:hover {
+	text-decoration: underline;
+}
+
+/////////portfolio links//////
+///////////////////////////////
+
+ a.two:link {
+	 color:white;
+ }
+
+	a.two:visited {
+		color:white;
+	}
+
+	a.two:hover {
+		text-decoration: underline;
+	}
+
+
+/////////////////////////////////
+/////////////////////////////////
+
+
+.catImage {
+ width: 30%;
+ margin: 10px;
+
+}
+.catImageSeltz {
+ width: 30%;
+ margin-left: 10px;
+ margin-right:  10px;
+ margin-top: 50px;
+ margin-bottom: 50px;
+}
+
+.Music {
 	display: flex;
-	max-width: 1000px;
+	color: white;
+  background-color: rgb(60,64,61);
+	max-width: 1200px;
+	margin-left: auto;
+  margin-right: auto;
+  clear:both;
+	margin-top: 50px;
+	}
+
+
+.Recipes {
+	display: flex;
+	color: white;
+	background-color: rgb(218,222,212);
+	max-width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
-	clear: both; }
-
-
-.divArticle {
-margin-left: auto
+	clear:both;
+	margin-top: 50px;
 }
 
-
-
-
-.heading {
-	text-align: center;
-	background-color: white;
-	width: 550px;
-	border: solid;
-	border-color: black;
-	border-width: medium;
-
-}
-
-.buttonalign {
-	text-align: center;
+.Watersports {
 	display: flex;
-	justify-content: center;
+	color: white;
+  background-color: rgb(60,64,61);
+				max-width: 1200px;
+				margin-left: auto;
+				margin-right: auto;
+				clear:both;
+				margin-top: 50px;
 }
 
-.catimage {
-	height: 500px;
-}
-
-.dogimageDiv{
+.Travel {
 	display: flex;
-	justify-content: center;
-	margin-top: 100px;
+	color: white;
+  background-color: rgb(218,222,212);
+				max-width: 1200px;
+				margin-left: auto;
+				margin-right: auto;
+				clear:both;
+				margin-top: 50px;
 }
 
-
-.paragraphalign {
-	text-align: center;
+.Games {
 	display: flex;
-	justify-content: center;
+	color: white;
+  background-color: rgb(60,64,61);
+	max-width: 1200px;
+				margin-left: auto;
+				margin-right: auto;
+				clear:both;
+				margin-top: 50px;
 }
 
-.buttonmargin {
-	margin-left: 10px;
-	margin-right: 10px;
+.Seltzer {
+	display: flex;
+	color: white;
+  background-color: rgb(218,222,212);
+				max-width: 1200px;
+				margin-left: auto;
+				margin-right: auto;
+				clear:both;
+				margin-top: 50px;
+				margin-bottom: 50px;
 }
 
-.paragraphtext {
-	font-size: 2rem;
+.Music {
+	display: flex;
+	color: white;
+  background-color: rgb(60,64,61);
+				max-width: 1200px;
+				margin-left: auto;
+				margin-right: auto;
+				clear:both;
+				margin-top: 50px;
 }
-.imageHidden {
-	visibility: hidden;
+
+
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+//// END --- portfolio.html --- END ////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////Resume////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+
+.rightAlign {
+	float: right;
 }
-.imageinitial {
-	display: none;
+
+.resumeImage {
+margin-left: auto;
+margin-right: auto;
+//width: 80%;
+//margin-bottom: 50px;
 }
+
+
+.resumefooter {
+	//position: absolute;
+	//left: 0;
+	//bottom: 0;
+	//width: 100%;
+}
+
+
+
+.resumeContainer {
+display: flex;
+justify-content: space-around;
+margin-bottom: 50px;
+
+}
+
+
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////Modal////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+
+.modalheader {
+	font-weight: bold;
+}
+.modalstyle {
+	background-color: rgb(218,222,212);
+	background-image: url(../images/leavesover.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+
+}
+
+.socialmedia {
+	height: 100px;
+	width: 100px;
+}
+
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////navbar////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+
+.topAreaClass {
+	//margin-top: 50px;
+  margin-bottom: 50px;
+	padding-top: 13px;
+	//padding-bottom: 15px;
+	padding-right: 98px;
+	padding-left: 98px;
+	background: white;
+
+&.Footer{
+	margin-top: 50px;
+}
+}
+
+.headerLeft {
+	color: black;
+	font-size: 16.39pt;
+	//font-weight: 5000;
+	//font-family: 'Montserrat', bold;
+}
+
+.horizontalul {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .horizontallia {
+    display: inline-block;
+    list-style-type: none;
+    color: black;
+    padding-left: 14px;
+    text-decoration: none;
+    font-size: 16.39pt;
+
+    &.headerlist {
+      color: black;
+      list-style-type: none;
+    }
+}
+
 }

@@ -1,59 +1,203 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
 body {
-  font-family: 'Berkshire Swash', cursive;
-  background-image: url("../images/gifts.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  margin: 20px; }
-  body h1 {
+  font-family: 'Raleway', sans-serif;
+  background-color: #a3bcb6; }
+  body .logo {
+    width: 184px;
+    height: 64px;
+    display: block;
     margin-left: auto;
     margin-right: auto; }
-  @media screen and (min-width: 810px) {
-    body .float {
-      float: left;
-      margin: 15px;
-      width: 50%; }
-    body .wrapper {
-      padding: 10px; }
-    body .cleared {
-      clear: right; } }
-  body .myflex {
+  body .topbackground {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #a3bcb6; }
+  body .navbarListLeft {
+    padding-left: 40px; }
+  body .navbarListRight {
+    padding-right: 40px; }
+  body li.contactLI:hover {
+    text-decoration: underline !important; }
+  body .waterFallBackground {
+    background-color: #a3bcb6; }
+  body .WaterFallImage {
+    width: 100%;
+    padding: 0px 75px 0px 75px;
+    margin-bottom: 40px; }
+  body .middlebackground {
+    padding-right: 100px;
+    padding-left: 100px;
+    background-color: #3c403d;
+    color: white; }
+  body .bioRowPadding {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    align-items: center; }
+  body .bioText {
+    font-size: 16pt;
+    padding-left: 25px; }
+  body .middleimage {
+    width: 100%; }
+  body .footerindex {
+    background-color: #daded4; }
+  body .mtnContainer {
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #daded4;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px; }
+  body .mtncontainerchild {
     display: flex;
-    max-width: 1000px;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center; }
+  body .mountainimage {
+    height: 207px;
+    width: 270px; }
+  body .mountainlink {
+    display: inline;
+    font-size: 25pt;
+    font-weight: bold;
+    color: white; }
+  body p.mountainlink:hover {
+    text-decoration: underline !important; }
+  body .HomePad {
+    padding-left: 30px; }
+  body .portfolioheader {
+    color: white;
+    font-size: 55pt; }
+  body .portfolioBody {
+    background-color: #a3bcb6; }
+  body .portfoliotext {
+    font-size: 60px;
+    margin: auto; }
+  body a.one:link {
+    color: black; }
+  body a.one:visited {
+    color: black; }
+  body a.one:hover {
+    text-decoration: underline; }
+  body a.two:link {
+    color: white; }
+  body a.two:visited {
+    color: white; }
+  body a.two:hover {
+    text-decoration: underline; }
+  body .catImage {
+    width: 30%;
+    margin: 10px; }
+  body .catImageSeltz {
+    width: 30%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px; }
+  body .Music {
+    display: flex;
+    color: white;
+    background-color: #3c403d;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    clear: both; }
-    @media screen and (max-width: 750px) {
-      body .myflex {
-        flex-direction: column; } }
-  body .divArticle {
-    margin-left: auto; }
-  body .heading {
-    text-align: center;
-    background-color: white;
-    width: 550px;
-    border: solid;
-    border-color: black;
-    border-width: medium; }
-  body .buttonalign {
-    text-align: center;
+    clear: both;
+    margin-top: 50px; }
+  body .Recipes {
     display: flex;
-    justify-content: center; }
-  body .catimage {
-    height: 500px; }
-  body .dogimageDiv {
+    color: white;
+    background-color: #daded4;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    margin-top: 50px; }
+  body .Watersports {
     display: flex;
-    justify-content: center;
-    margin-top: 100px; }
-  body .paragraphalign {
+    color: white;
+    background-color: #3c403d;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    margin-top: 50px; }
+  body .Travel {
+    display: flex;
+    color: white;
+    background-color: #daded4;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    margin-top: 50px; }
+  body .Games {
+    display: flex;
+    color: white;
+    background-color: #3c403d;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    margin-top: 50px; }
+  body .Seltzer {
+    display: flex;
+    color: white;
+    background-color: #daded4;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    margin-top: 50px;
+    margin-bottom: 50px; }
+  body .Music {
+    display: flex;
+    color: white;
+    background-color: #3c403d;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    margin-top: 50px; }
+  body .rightAlign {
+    float: right; }
+  body .resumeImage {
+    margin-left: auto;
+    margin-right: auto; }
+  body .resumeContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px; }
+  body .modalheader {
+    font-weight: bold; }
+  body .modalstyle {
+    background-color: #daded4;
+    background-image: url(../images/leavesover.png);
+    background-repeat: no-repeat;
+    background-size: contain; }
+  body .socialmedia {
+    height: 100px;
+    width: 100px; }
+  body .topAreaClass {
+    margin-bottom: 50px;
+    padding-top: 13px;
+    padding-right: 98px;
+    padding-left: 98px;
+    background: white; }
+    body .topAreaClass.Footer {
+      margin-top: 50px; }
+  body .headerLeft {
+    color: black;
+    font-size: 16.39pt; }
+  body .horizontalul {
     text-align: center;
-    display: flex;
-    justify-content: center; }
-  body .buttonmargin {
-    margin-left: 10px;
-    margin-right: 10px; }
-  body .paragraphtext {
-    font-size: 2rem; }
-  body .imageHidden {
-    visibility: hidden; }
-  body .imageinitial {
-    display: none; }
+    margin-left: auto;
+    margin-right: auto; }
+  body .horizontallia {
+    display: inline-block;
+    list-style-type: none;
+    color: black;
+    padding-left: 14px;
+    text-decoration: none;
+    font-size: 16.39pt; }
+    body .horizontallia.headerlist {
+      color: black;
+      list-style-type: none; }

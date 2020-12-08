@@ -1,5 +1,14 @@
 jQuery(function() {
 
+$('#mtnContactLinkP').click(function() {
+	$('#ModalIndex').modal('show');
+});
+
+$('#headerContactIndexID').click(function() {
+	$('#ModalIndex').modal('show');
+});
+
+/*
 	//let dog_out = true;
 
 	$('#catbutton').click(function() {
@@ -44,5 +53,5 @@ jQuery(function() {
 		$('#giveimage').fadeIn('slow');
 	});
 
-
+*/
 });
