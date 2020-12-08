@@ -86,7 +86,8 @@ body {
     text-decoration: underline; }
   body .catImage {
     width: 30%;
-    margin: 10px; }
+    margin: 10px;
+    max-height: 500px; }
   body .catImageSeltz {
     width: 30%;
     margin-left: 10px;
